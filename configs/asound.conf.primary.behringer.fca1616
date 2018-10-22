@@ -2,7 +2,7 @@ pcm.12_left {
     type dsnoop
     ipc_key 12111
     slave {
-        pcm "hw:3,0"
+        pcm "hw:1,0"
         channels 16
     }
     bindings.0  0
@@ -12,7 +12,7 @@ pcm.12_right {
     type dsnoop
     ipc_key 12111
     slave {
-        pcm "hw:3,0"
+        pcm "hw:1,0"
         channels 16
     }
     bindings.0  1
@@ -23,7 +23,7 @@ pcm.34_left {
     type dsnoop
     ipc_key 12111
     slave {
-        pcm "hw:3,0"
+        pcm "hw:1,0"
         channels 16
     }
     bindings.0  2
@@ -33,7 +33,7 @@ pcm.34_right {
     type dsnoop
     ipc_key 12111
     slave {
-        pcm "hw:3,0"
+        pcm "hw:1,0"
         channels 16
     }    
     bindings.0  3
@@ -43,7 +43,7 @@ pcm.56_left {
     type dsnoop
     ipc_key 12111
     slave {
-        pcm "hw:3,0"
+        pcm "hw:1,0"
         channels 16
     }
     bindings.0  4
@@ -53,7 +53,7 @@ pcm.56_right {
     type dsnoop
     ipc_key 12111
     slave {
-        pcm "hw:3,0"
+        pcm "hw:1,0"
         channels 16
     }    
     bindings.0  5
@@ -63,7 +63,7 @@ pcm.78_left {
     type dsnoop
     ipc_key 12111
     slave {
-        pcm "hw:3,0"
+        pcm "hw:1,0"
         channels 16
     }
     bindings.0  6
@@ -73,7 +73,7 @@ pcm.78_right {
     type dsnoop
     ipc_key 12111
     slave {
-        pcm "hw:3,0"
+        pcm "hw:1,0"
         channels 16
     }    
     bindings.0  7
@@ -83,7 +83,7 @@ pcm.910_left {
     type dsnoop
     ipc_key 910111
     slave {
-        pcm "hw:3,0"
+        pcm "hw:1,0"
         channels 16
     }
     bindings.0  8
@@ -93,7 +93,7 @@ pcm.910_right {
     type dsnoop
     ipc_key 910111
     slave {
-        pcm "hw:3,0"
+        pcm "hw:1,0"
         channels 16
     }    
     bindings.0  9

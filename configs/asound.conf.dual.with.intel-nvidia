@@ -1,0 +1,81 @@
+pcm.12_left {
+    type dsnoop
+    ipc_key 12111
+    slave {
+        pcm "hw:1,0"
+        channels 2
+    }
+    bindings.0  0
+}
+
+pcm.12_right {
+    type dsnoop
+    ipc_key 12111
+    slave {
+        pcm "hw:1,0"
+        channels 2
+    }
+    bindings.0  1
+} 
+
+
+pcm.34_left {
+    type dsnoop
+    ipc_key 34111
+    slave {
+        pcm "hw:1,1"
+        channels 2
+    }
+    bindings.0  0
+}
+
+pcm.34_right {
+    type dsnoop
+    ipc_key 34111
+    slave {
+        pcm "hw:1,1"
+        channels 2
+    }    
+    bindings.0  1
+} 
+
+pcm.56_left {
+    type dsnoop
+    ipc_key 56111
+    slave {
+        pcm "hw:3,0"
+        channels 2
+    }
+    bindings.0  0
+}
+
+pcm.56_right {
+    type dsnoop
+    ipc_key 56111
+    slave {
+        pcm "hw:3,0"
+        channels 2
+    }    
+    bindings.0  1
+} 
+
+pcm.78_left {
+    type dsnoop
+    ipc_key 78111
+    slave {
+        pcm "hw:3,1"
+        channels 2
+    }
+    bindings.0  0
+}
+
+pcm.78_right {
+    type dsnoop
+    ipc_key 78111
+    slave {
+        pcm "hw:3,1"
+        channels 2
+    }    
+    bindings.0  1
+} 
+

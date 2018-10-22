@@ -1,0 +1,46 @@
+pcm.c11 {
+	type dsnoop
+    ipc_key 2013122701
+    slave {
+        pcm "hw:1,0"
+		channels 2
+		rate 44100
+		format S32_LE
+    }
+    bindings.0 0
+}
+
+pcm.c12 {
+	type dsnoop
+    ipc_key 2013122702
+    slave {
+        pcm "hw:1,0"
+		channels 2
+		rate 44100
+		format S32_LE
+    }
+    bindings.0 1
+}
+
+pcm.c21 {
+    type dsnoop
+    ipc_key 2013122711
+    slave {
+        pcm "hw:1,1"
+        channels 2
+        rate 44100
+        format S32_LE
+    }
+    bindings.0 0
+}
+pcm.c22 {
+    type dsnoop
+    ipc_key 2013122712
+    slave {
+        pcm "hw:1,1"
+        channels 2
+        rate 44100
+        format S32_LE
+    }
+    bindings.0 1
+}
